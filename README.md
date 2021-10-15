@@ -13,7 +13,8 @@ This repository contains my solution of theMatplotlib Homework  - The Power of P
 # Resources
 
 [Mouse_metadata.csv](https://github.com/NazihZaz/Matplotlib-challenge/blob/main/Pymaceuticals/data/Mouse_metadata.csv)
-[Study_results](https://github.com/NazihZaz/Matplotlib-challenge/blob/main/Pymaceuticals/data/Study_results.csv)
+
+[Study_results.csv](https://github.com/NazihZaz/Matplotlib-challenge/blob/main/Pymaceuticals/data/Study_results.csv)
 
 # Assignment 
 
@@ -34,15 +35,15 @@ Your tasks are to do the following:
 - Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 
 - Generate a bar plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the total number of timepoints for all mice tested for each drug regimen 	throughout the course of the study.
-### NOTE: These plots should look identical.
+NOTE: These plots should look identical.
 
  - Generate a pie plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the distribution of female or male mice in the study.
-### NOTE: These plots should look identical.
+NOTE: These plots should look identical.
 
 - Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles 	and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
 
 - Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their 	color and style.
-### Hint: All four box plots should be within the same figure. Use this Matplotlib documentation page for help with changing the style of the outliers.
+Hint: All four box plots should be within the same figure. Use this Matplotlib documentation page for help with changing the style of the outliers.
 
 - Select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse.
 
